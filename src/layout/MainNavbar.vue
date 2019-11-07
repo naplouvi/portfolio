@@ -27,6 +27,7 @@
               <md-list-item href="#who">WHO</md-list-item>
               <md-list-item href="#how">HOW</md-list-item>
               <md-list-item href="#what">WHAT</md-list-item>
+			  <md-list-item href="#contact">Contact</md-list-item>
             </md-list>
           </div>
         </div>

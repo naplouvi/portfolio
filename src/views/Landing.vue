@@ -96,8 +96,7 @@
                     <strong>incubateur de Startups</strong> et en remote.
                     Plusieurs expériences pro dans des milieux variés. Une licence de sciences humaines et sociales, excellente pour les
                     <strong>soft skills</strong>.
-                    Mais aussi un an de projets hardcore à l'école
-                    <strong>42</strong>. Voir CV pour le détail.
+                    Mais aussi une année intensive à <strong>l'école 42</strong> avec au programme des projets hardcore, de l'investissement dans une association, un stage d'assistant technique et pédagogique. Et en ce moment, je participe au module d'entreprenariat de l'EM Lyon. Voir CV pour le détail.
                   </p>
                 </div>
               </div>
@@ -114,7 +113,7 @@
                     <strong>node.js (express)</strong> et
                     <strong>PHP</strong> (vanilla) avec respectivement Mongodb et MySQL pour les bases de données.
                     Pour le front, du
-                    <strong>HTML/CSS/JS</strong> classique et très récemment du
+                    <strong>HTML/CSS/JS</strong> classique, du
                     <strong>Vue.js</strong>, avec une priorité mise sur l'expérience utilisateur, le
                     <strong>responsive</strong> et la simplicité. Mes projets ont souvent un aspect minimaliste, mais c'est bien aussi... non ?
                     J'utilise
@@ -144,13 +143,10 @@
         <div class="container">
           <div class="md-layout">
             <div class="md-layout-item md-size-66 md-xsmall-size-100 mx-auto">
-              <h2 class="text-center title">Work with us</h2>
-              <h4 class="text-center description">
-                Divide details about your product or agency work into parts.
-                Write a few lines about each one and contact us about any
-                further collaboration. We will responde get back to you in a
-                couple of hours.
-              </h4>
+              <h2 class="text-center title">Contact</h2>
+              <h4
+                class="text-center description"
+              >Si vous souhaitez des informations supplémentaires ou me rencontrer, n'hésitez pas ! Je serai ravi de vous répondre !</h4>
               <form class="contact-form">
                 <div class="md-layout">
                   <div class="md-layout-item md-size-50">
