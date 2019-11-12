@@ -13,7 +13,7 @@
               class="md-success md-lg"
               target="_blank"
             >
-              <i class="fas fa-play"></i> Watch video
+              <i class="fas fa-play"></i> Voir la vidéo
             </md-button>
           </div>
         </div>
@@ -30,7 +30,7 @@
                   <md-card class="md-card-plain">
                     <div class="md-layout-item md-size-25 mx-auto">
                       <img
-                        :src="teamImg1"
+                        :src="picture"
                         alt="Thumbnail Image"
                         class="img-raised rounded-circle img-fluid"
                       />
@@ -42,13 +42,7 @@
 
                     <md-card-content>
                       <p class="card-description">
-                        You can write here details about one of your team
-                        members. You can give more details about what they do.
-                        Feel free to add some
-                        <a
-                          href="#"
-                        >links</a> for people
-                        to be able to follow them outside the site.
+                        Développeur passionné, grimpeur compulsif, grand buveur de thé, gaga avec son chat.
                       </p>
                     </md-card-content>
 
@@ -57,10 +51,10 @@
                         <i class="fab fa-twitter"></i>
                       </md-button>
                       <md-button href="javascript:void(0)" class="md-just-icon md-simple">
-                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-linkedin"></i>
                       </md-button>
                       <md-button href="javascript:void(0)" class="md-just-icon md-simple">
-                        <i class="fab fa-facebook-square"></i>
+                        <i class="fab fa-github-square"></i>
                       </md-button>
                     </md-card-actions>
                   </md-card>
@@ -146,29 +140,29 @@
               <h2 class="text-center title">Contact</h2>
               <h4
                 class="text-center description"
-              >Si vous souhaitez des informations supplémentaires ou me rencontrer, n'hésitez pas ! Je serai ravi de vous répondre !</h4>
+              >Pour plus d'infos ou me rencontrer, c'est par ici (personne n'utilise ce genre de formulaire mais sait-on jamais)</h4>
               <form class="contact-form">
                 <div class="md-layout">
                   <div class="md-layout-item md-size-50">
                     <md-field>
-                      <label>Your Name</label>
+                      <label>Ton prénom</label>
                       <md-input v-model="name" type="text"></md-input>
                     </md-field>
                   </div>
                   <div class="md-layout-item md-size-50">
                     <md-field>
-                      <label>Your Email</label>
+                      <label>Ton email (pour te répondre)</label>
                       <md-input v-model="email" type="email"></md-input>
                     </md-field>
                   </div>
                 </div>
                 <md-field maxlength="5">
-                  <label>Your Message</label>
+                  <label>Le message</label>
                   <md-textarea v-model="message"></md-textarea>
                 </md-field>
                 <div class="md-layout">
                   <div class="md-layout-item md-size-33 mx-auto text-center">
-                    <md-button class="md-success">Send Message</md-button>
+                    <md-button class="md-success">Envoyer</md-button>
                   </div>
                 </div>
               </form>
@@ -186,11 +180,11 @@ export default {
   props: {
     header: {
       type: String,
-      default: require("@/assets/img/bg7.jpg")
+      default: require("@/assets/img/86369.jpg")
     },
-    teamImg1: {
+    picture: {
       type: String,
-      default: require("@/assets/img/faces/large_naplouvi.jpg")
+      default: require("@/assets/img/naplouvi.jpg")
     }
   },
   data() {
