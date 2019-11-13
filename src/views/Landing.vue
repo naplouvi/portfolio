@@ -5,8 +5,8 @@
         <div class="md-layout">
           <div class="md-layout-item md-size-50 md-small-size-70 md-xsmall-size-100">
             <h1 class="title">Nathan PLOUVIER</h1>
-            <h4>Développeur Web FullStack PHP et Javascript</h4>
-            <h4>42 Student</h4>
+            <h4 class="text-white">Développeur Web FullStack PHP et Javascript</h4>
+            <h4 class="text-white">42 Student</h4>
             <br />
             <md-button
               href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
@@ -132,8 +132,28 @@
       <div class="section section-contacts">
         <div class="container">
           <div class="md-layout">
+            <div class="md-layout-item md-size-100 md-xsmall-size-100 mx-auto">
+              <h2 class="text-center title">Work.</h2>
+              <div class="uk-child-width-1-2@m" uk-grid>
+                <div v-for="project in projects" :key="project.id">
+                  <Project
+                    :key="project.id"
+                    :title="project.title"
+                    :description="project.description"
+                    :url="project.url"
+                    :img="project.img"
+                  ></Project>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section section-contacts">
+        <div class="container">
+          <div class="md-layout">
             <div class="md-layout-item md-size-66 md-xsmall-size-100 mx-auto">
-              <h2 class="text-center title">Contact</h2>
+              <h2 class="text-center title">Contact.</h2>
               <h4
                 class="text-center description"
               >Pour plus d'infos ou me rencontrer, c'est par ici (personne n'utilise ce genre de formulaire mais sait-on jamais)</h4>
@@ -171,6 +191,8 @@
 </template>
 
 <script>
+import Project from "../components/Project";
+
 export default {
   bodyClass: "landing-page",
   props: {
@@ -183,11 +205,30 @@ export default {
       default: require("@/assets/img/naplouvi.jpg")
     }
   },
+  components: {
+    Project
+  },
   data() {
     return {
       name: null,
       email: null,
-      message: null
+      message: null,
+      projects: [
+        {
+          id: "1",
+          title: "ok",
+          description: "awdawd",
+          img: "@/assets/img/86369.jpg",
+          url: "awdad"
+        },
+        {
+          id: "1",
+          title: "ok",
+          description: "awdawd",
+          img: "@/assets/img/86369.jpg",
+          url: "awdad"
+        }
+      ]
     };
   },
   computed: {
@@ -211,5 +252,9 @@ export default {
 
 .md-has-textarea + .md-layout {
   margin-top: 15px;
+}
+
+.text-white {
+  color: #ffff;
 }
 </style>
