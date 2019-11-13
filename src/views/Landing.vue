@@ -141,7 +141,7 @@
               <h4
                 class="text-center description"
               >Pour plus d'infos ou me rencontrer, c'est par ici (personne n'utilise ce genre de formulaire mais sait-on jamais)</h4>
-              <form class="contact-form">
+              <form action="/api/v1/project" method="POST" class="contact-form">
                 <div class="md-layout">
                   <div class="md-layout-item md-size-50">
                     <md-field>
@@ -162,7 +162,7 @@
                 </md-field>
                 <div class="md-layout">
                   <div class="md-layout-item md-size-33 mx-auto text-center">
-                    <md-button class="md-success">Envoyer</md-button>
+                    <md-button type="submit" class="md-success">Envoyer</md-button>
                   </div>
                 </div>
               </form>
