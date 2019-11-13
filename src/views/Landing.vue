@@ -10,7 +10,7 @@
             <br />
             <md-button
               href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-              class="md-success md-lg"
+              class="md-info md-lg"
               target="_blank"
             >
               <i class="fas fa-play"></i> Voir la vidéo
@@ -41,9 +41,9 @@
                     </h4>
 
                     <md-card-content>
-                      <p class="card-description">
-                        Développeur passionné, grimpeur compulsif, grand buveur de thé, gaga avec son chat.
-                      </p>
+                      <p
+                        class="card-description"
+                      >Développeur passionné, grimpeur compulsif, grand buveur de thé, gaga avec son chat.</p>
                     </md-card-content>
 
                     <md-card-actions class="text-center">
@@ -90,7 +90,8 @@
                     <strong>incubateur de Startups</strong> et en remote.
                     Plusieurs expériences pro dans des milieux variés. Une licence de sciences humaines et sociales, excellente pour les
                     <strong>soft skills</strong>.
-                    Mais aussi une année intensive à <strong>l'école 42</strong> avec au programme des projets hardcore, de l'investissement dans une association, un stage d'assistant technique et pédagogique. Et en ce moment, je participe au module d'entreprenariat de l'EM Lyon. Voir CV pour le détail.
+                    Mais aussi une année intensive à
+                    <strong>l'école 42</strong> avec au programme des projets hardcore, de l'investissement dans une association, un stage d'assistant technique et pédagogique. Et en ce moment, je participe au module d'entreprenariat de l'EM Lyon. Voir CV pour le détail.
                   </p>
                 </div>
               </div>
@@ -121,12 +122,7 @@
                     <md-icon>sentiment_dissatisfied</md-icon>
                   </div>
                   <h4 class="info-title">Boo</h4>
-                  <p>
-                    Comme tout être humain, j'ai aussi mes lacunes et si nous sommes amenés à collaborer, autant que vous les connaissiez.
-                    Google est mon meilleur ami et sans lui, je ne serai pas développeur. Je suis super nul en design et beaucoup d'aspects front restent mystiques à mes yeux.
-                    Taper 1000 lignes de code à la minute, c'est pas mon truc. Je passe beaucoup de temps à réfléchir à comment faire les choses bien et proprement.
-                    Je bois énormément de thé. Pas fan des réunions trop longues et des appels téléphoniques. Pas de voiture, pas de permis. ¯\_(ツ)_/¯
-                  </p>
+                  <p>En vrac, la liste non exhaustive de mes points faibles : super nul en design, réfléchis trop, répond jamais au téléphone, déteste les réunions, fais des blagues pas drôles, n'aime pas sortir, n'aime pas la foule, pas de voiture, pas de permis. ¯\_(ツ)_/¯</p>
                 </div>
               </div>
             </div>
@@ -162,7 +158,7 @@
                 </md-field>
                 <div class="md-layout">
                   <div class="md-layout-item md-size-33 mx-auto text-center">
-                    <md-button type="submit" class="md-success">Envoyer</md-button>
+                    <md-button type="submit" class="md-info">Envoyer</md-button>
                   </div>
                 </div>
               </form>
