@@ -129,7 +129,7 @@
           </div>
         </div>
       </div>
-      <div class="section section-contacts">
+      <div id="what" class="section section-contacts">
         <div class="container">
           <div class="md-layout">
             <div class="md-layout-item md-size-100 md-xsmall-size-100 mx-auto">
@@ -149,7 +149,7 @@
           </div>
         </div>
       </div>
-      <div class="section section-contacts">
+      <div id="contact" class="section section-contacts">
         <div class="container">
           <div class="md-layout">
             <div class="md-layout-item md-size-66 md-xsmall-size-100 mx-auto">
@@ -216,17 +216,35 @@ export default {
       projects: [
         {
           id: "1",
-          title: "ok",
-          description: "awdawd",
-          img: "@/assets/img/86369.jpg",
-          url: "awdad"
+          title: "Intranet pour les tuteurs de 42 Lyon",
+          description:
+            "Plateforme web d'organisation pour les tuteurs de l'école 42, il comporte une partie publique de blogging accessible aux étudiants de l'école. Les tuteurs ont accés à plus de fonctionnalités (proposer et lancer des projets, collaborer et s'organiser entre eux). Réalisé avec le framework CodeIgniter et Bootstrap.",
+          img: require("@/assets/img/projects/intratuteur.jpg"),
+          url: "https://tuteurs.le-101.fr"
         },
         {
-          id: "1",
-          title: "ok",
-          description: "awdawd",
-          img: "@/assets/img/86369.jpg",
-          url: "awdad"
+          id: "2",
+          title: "42 Lyon",
+          description:
+            "WIP. Nouveau site de l'école 42 Lyon suite au changement de nom (anciennement le-101). Réalisé en Python Flask et Materialize.",
+          img: require("@/assets/img/projects/42lyon.png"),
+          url: "https://42lyon.fr"
+        },
+        {
+          id: "3",
+          title: "Camagru",
+          description:
+            "42 Project. Plateforme de partage de photos. Mode studio : uploader ou prendre une photo avec la webcam et y ajouter des filtres. Conception de mon propre MVC en PHP vanilla, Javascript vanilla et Bulma pour le css.",
+          img: require("@/assets/img/projects/camagru.png"),
+          url: "https://github.com/naplouvi/camagru"
+        },
+        {
+          id: "4",
+          title: "Matcha",
+          description:
+            "42 Project. Plateforme de rencontre en ligne. Mix entre Tinder et Meetic. Utilisation de mon propre MVC PHP couplé à un serveur node.js et socket.io pour les évènements dynamiques (notifications/messagerie instantanée). Stratégies d'authentifications omniauth (oAuth2).",
+          img: require("@/assets/img/projects/matcha.png"),
+          url: "https://github.com/naplouvi/matcha"
         }
       ]
     };

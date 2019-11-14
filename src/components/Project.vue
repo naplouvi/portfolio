@@ -9,7 +9,7 @@
           <p>{{description}}</p>
         </div>
         <div class="uk-card-footer">
-          <a :href="url" class="uk-button uk-button-text">Voir</a>
+          <a :href="url" class="uk-button uk-button-text" target="_blank">Voir</a>
         </div>
       </div>
     </div>
