@@ -53,7 +53,7 @@
                       <md-button href="javascript:void(0)" class="md-just-icon md-simple">
                         <i class="fab fa-linkedin"></i>
                       </md-button>
-                      <md-button href="javascript:void(0)" class="md-just-icon md-simple">
+                      <md-button href="http://github.com" class="md-just-icon md-simple">
                         <i class="fab fa-github-square"></i>
                       </md-button>
                     </md-card-actions>
@@ -91,7 +91,7 @@
                     Plusieurs expériences pro dans des milieux variés. Une licence de sciences humaines et sociales, excellente pour les
                     <strong>soft skills</strong>.
                     Mais aussi une année intensive à
-                    <strong>l'école 42</strong> avec au programme des projets hardcore, de l'investissement dans une association, un stage d'assistant technique et pédagogique. Et en ce moment, je participe au module d'entreprenariat de l'EM Lyon. Voir CV pour le détail.
+                    <strong>l'école 42</strong> avec au programme des projets hardcore, de l'investissement dans une association, un stage d'assistant technique et pédagogique. Et en ce moment, je participe au module d'entreprenariat de l'EM Lyon. <a href="/cv" target="_blank">Voir CV pour le détail.</a>
                   </p>
                 </div>
               </div>
@@ -234,7 +234,7 @@ export default {
           id: "3",
           title: "Camagru",
           description:
-            "42 Project. Plateforme de partage de photos. Mode studio : uploader ou prendre une photo avec la webcam et y ajouter des filtres. Conception de mon propre MVC en PHP vanilla, Javascript vanilla et Bulma pour le css.",
+            "42 Project. Plateforme de partage de photos. Mode studio : uploader ou prendre une photo avec la webcam et y ajouter des filtres. Conception de mon propre MVC en PHP vanilla, Javascript vanilla et Bulma pour le css + Docker.",
           img: require("@/assets/img/projects/camagru.png"),
           url: "https://github.com/naplouvi/camagru"
         },
@@ -242,7 +242,7 @@ export default {
           id: "4",
           title: "Matcha",
           description:
-            "42 Project. Plateforme de rencontre en ligne. Mix entre Tinder et Meetic. Utilisation de mon propre MVC PHP couplé à un serveur node.js et socket.io pour les évènements dynamiques (notifications/messagerie instantanée). Stratégies d'authentifications omniauth (oAuth2).",
+            "42 Project. Plateforme de rencontre en ligne. Mix entre Tinder et Meetic. Utilisation de mon propre MVC PHP couplé à un serveur node.js et socket.io pour les évènements dynamiques (notifications/messagerie instantanée), environnement Docker. Stratégies d'authentifications omniauth (oAuth2).",
           img: require("@/assets/img/projects/matcha.png"),
           url: "https://github.com/naplouvi/matcha"
         }

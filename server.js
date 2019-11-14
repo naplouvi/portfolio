@@ -6,9 +6,9 @@ const app = express();
 //here we are configuring dist to serve app files
 app.use('/', serveStatic(path.join(__dirname, '/dist')));
 
-app.get('/.well-known/acme-challenge/jm8KKiZMoLGcPKey4Zj6mPTepsx5XE2k_p4tJ3wgf4Y', (req, res) => {
-	res.send('jm8KKiZMoLGcPKey4Zj6mPTepsx5XE2k_p4tJ3wgf4Y.sgBFgryE8qMUExcSdnSRhIsUOA7e3Nb92SpNhB33aA8')
-});
+app.get('/cv', (req, res) => {
+	res.sendFile(__dirname + "/Nathan-Plouvier.pdf");
+})
 
 
 const port = process.env.PORT || 8080
