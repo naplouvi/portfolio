@@ -91,7 +91,8 @@
                     Plusieurs expériences pro dans des milieux variés. Une licence de sciences humaines et sociales, excellente pour les
                     <strong>soft skills</strong>.
                     Mais aussi une année intensive à
-                    <strong>l'école 42</strong> avec au programme des projets hardcore, de l'investissement dans une association, un stage d'assistant technique et pédagogique. Et en ce moment, je participe au module d'entreprenariat de l'EM Lyon. <a href="/cv" target="_blank">Voir CV pour le détail.</a>
+                    <strong>l'école 42</strong> avec au programme des projets hardcore, de l'investissement dans une association, un stage d'assistant technique et pédagogique. Et en ce moment, je participe au module d'entreprenariat de l'EM Lyon.
+                    <a href="/cv" target="_blank">Voir CV pour le détail.</a>
                   </p>
                 </div>
               </div>
@@ -245,6 +246,14 @@ export default {
             "42 Project. Plateforme de rencontre en ligne. Mix entre Tinder et Meetic. Utilisation de mon propre MVC PHP couplé à un serveur node.js et socket.io pour les évènements dynamiques (notifications/messagerie instantanée), environnement Docker. Stratégies d'authentifications omniauth (oAuth2).",
           img: require("@/assets/img/projects/matcha.png"),
           url: "https://github.com/naplouvi/matcha"
+        },
+        {
+          id: "5",
+          title: "Hypertube",
+          description:
+            "42 Project. Projet de fin de branche Web. Application web de streaming vidéo en utilisant le protocole bittorent. Utilisation d'une fullstack Javascript (MongoDB, Express, Vue.js, Node.js) et développement d'une API REST.",
+          img: require("@/assets/img/projects/hypertube.png"),
+          url: "https://github.com/naplouvi/hypertube"
         }
       ]
     };
